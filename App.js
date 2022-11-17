@@ -17,7 +17,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
        <Header
       backgroundColor={'#9c8210'}
-      centerComponent={{text:'Monkey Chunkey', style: {color:'#fff',fontSize:20}}}/>
+      centerComponent={{text:'Monkey ---Chunkey', style: {color:'#fff',fontSize:20}}}/>
       <TextInput style={styles.inputBox}
       onChangeText = {(text)=>this.setState({text:text})}
       value={this.state.text}/>
